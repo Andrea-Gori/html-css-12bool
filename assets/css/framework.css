@@ -1,12 +1,12 @@
-body.debug [class*="col-"]{
+/* body.debug [class*="col-"]{
   height: 150px;
   border: 1px solid black;
 }
 
 body.debug [class*="col-"] > .row > [class*="col-"] {
-  height: 145px;
+  height: 135px;
   border: 1px solid black;
-}
+} */
 
 *{
   margin: 0;
