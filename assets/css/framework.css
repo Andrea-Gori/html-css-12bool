@@ -3,6 +3,11 @@ body.debug [class*="col-"]{
   border: 1px solid black;
 }
 
+body.debug [class*="col-"] > .row > [class*="col-"] {
+  height: 145px;
+  border: 1px solid black;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -16,6 +21,11 @@ body.debug [class*="col-"]{
 
 [class*="col-"] {
   float: left;
+  padding: 0 15px;
+}
+
+.row {
+  margin: 0 -15;
 }
 
 .row::after {
